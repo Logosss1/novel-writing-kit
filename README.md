@@ -6,13 +6,13 @@ A Codex plugin for structured Chinese novel writing, also usable as a local skil
 
 ## Core skills
 
-- `novel-architect`: story bible, characters, world rules, timeline, and constraints.
-- `novel-outline`: arcs, volumes, chapters, scenes, conflict, and hooks.
-- `novel-draft`: drafting, continuation, expansion, rewriting, and chapter handoff.
-- `novel-continuity`: characters, timeline, rules, resources, information gaps, and foreshadowing.
-- `novel-prose-edit`: Chinese prose, dialogue, rhythm, repetition, and AI-like phrasing.
-- `novel-research`: on-demand fact checking for historical, geographic, and professional details.
-- `novel-memory`: state cards, progress, hook ledgers, summaries, and context compression.
+- `novel-architect`: Establishes the story bible, character system, world rules, timeline, and creative constraints.
+- `novel-outline`: Turns a premise into coherent arcs, volumes, chapters, scenes, conflicts, and hooks.
+- `novel-draft`: Produces and revises Chinese novel prose while preserving motivation, viewpoint, and scene continuity.
+- `novel-continuity`: Audits characters, chronology, rules, resources, information gaps, injuries, and foreshadowing.
+- `novel-prose-edit`: Refines Chinese expression, dialogue, rhythm, repetition, tone, and AI-like phrasing.
+- `novel-research`: Verifies historical, geographic, institutional, medical, military, and technical details on demand.
+- `novel-memory`: Maintains state cards, progress, hook ledgers, summaries, and context compression across sessions.
 
 `novel-orchestrator` is an optional router for multi-step tasks.
 
@@ -23,6 +23,14 @@ A Codex plugin for structured Chinese novel writing, also usable as a local skil
 - Explicitly invoke a skill such as `$novel-draft` when deterministic routing is preferred.
 
 See [`plugins/novel-writing-kit/docs/routing.md`](plugins/novel-writing-kit/docs/routing.md) for the routing contract.
+
+## Workflow at a glance
+
+The kit follows a controlled creative loop: define the story foundation, design the plot, draft the chapter, verify facts when needed, edit the prose, audit continuity, and update project memory. Focused tasks can use one skill directly; multi-step tasks can use the optional orchestrator.
+
+![Novel Writing Kit workflow](plugins/novel-writing-kit/docs/assets/overall-architecture.svg)
+
+Workflow diagrams and image-generation prompts are collected in [`docs/visual-prompts.md`](plugins/novel-writing-kit/docs/visual-prompts.md).
 
 ## Scope and privacy
 

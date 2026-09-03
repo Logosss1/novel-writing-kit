@@ -4,13 +4,13 @@
 
 ## 核心 Skills
 
-- `novel-architect`：建立小说设定、人物、规则与创作约束。
-- `novel-outline`：规划主线、分卷、章节和场景推进。
-- `novel-draft`：续写、改写、扩写和重写正文。
-- `novel-continuity`：检查人物、时间线、规则、资源和伏笔一致性。
-- `novel-prose-edit`：检查中文表达、节奏、对话和 AI 腔。
-- `novel-research`：按需核验历史、地理和专业事实。
-- `novel-memory`：维护状态卡、伏笔池、章节摘要和上下文压缩。
+- `novel-architect`：建立故事圣经、人物系统、世界规则、时间线和创作约束。
+- `novel-outline`：把创意拆解为主线、分卷、章节、场景、冲突和章末钩子。
+- `novel-draft`：在保持人物动机、叙事视角和场景承接的前提下创作与改写正文。
+- `novel-continuity`：审查人物、时间线、规则、资源、信息差、伤势和伏笔。
+- `novel-prose-edit`：优化中文表达、对白、节奏、重复、语气和 AI 腔。
+- `novel-research`：按需核验历史、地理、制度、医学、军事和科技细节。
+- `novel-memory`：跨会话维护状态卡、进度、伏笔池、章节摘要和上下文压缩。
 
 ## 可选 Skill
 

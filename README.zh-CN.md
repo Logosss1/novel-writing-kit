@@ -6,13 +6,13 @@
 
 ## 核心 Skills
 
-- `novel-architect`：建立故事圣经、人物、世界规则、时间线和创作约束。
-- `novel-outline`：规划主线、分卷、章节、场景、冲突和钩子。
-- `novel-draft`：续写、补写、扩写、改写和重写正文。
-- `novel-continuity`：检查人物、时间线、规则、资源、信息差和伏笔。
-- `novel-prose-edit`：审校中文表达、对白、节奏、重复和 AI 腔。
-- `novel-research`：按需核验历史、地理和专业事实。
-- `novel-memory`：维护状态卡、进度、伏笔池、章节摘要和上下文压缩。
+- `novel-architect`：建立故事圣经、人物系统、世界规则、时间线和创作约束。
+- `novel-outline`：把创意拆解为主线、分卷、章节、场景、冲突和章末钩子。
+- `novel-draft`：在保持人物动机、叙事视角和场景承接的前提下创作与改写正文。
+- `novel-continuity`：审查人物、时间线、规则、资源、信息差、伤势和伏笔。
+- `novel-prose-edit`：优化中文表达、对白、节奏、重复、语气和 AI 腔。
+- `novel-research`：按需核验历史、地理、制度、医学、军事和科技细节。
+- `novel-memory`：跨会话维护状态卡、进度、伏笔池、章节摘要和上下文压缩。
 
 `novel-orchestrator` 是用于多步骤任务的可选路由器。
 
@@ -23,6 +23,14 @@
 - 需要确定性路由时，可以显式调用 `$novel-draft` 等 skill。
 
 完整路由协议见 [`plugins/novel-writing-kit/docs/routing.md`](plugins/novel-writing-kit/docs/routing.md)。
+
+## 工作流程概览
+
+整个套件遵循一条可控的创作闭环：建立设定、规划剧情、创作章节、按需核验事实、编辑语言、审查连续性，最后更新项目记忆。简单任务可以直接调用单个 skill，多步骤任务可以使用可选的 orchestrator。
+
+![Novel Writing Kit 工作流](plugins/novel-writing-kit/docs/assets/overall-architecture.svg)
+
+工作流图示和图片生成描述见 [`docs/visual-prompts.md`](plugins/novel-writing-kit/docs/visual-prompts.md)。
 
 ## 范围与隐私
 

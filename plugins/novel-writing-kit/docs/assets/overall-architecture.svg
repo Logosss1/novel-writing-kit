@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Novel Writing Kit overall architecture</title>
+  <desc id="desc">Seven skills arranged around a central manuscript workflow.</desc>
+  <rect width="1600" height="900" fill="#f7f9fb"/>
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#17212b">Novel Writing Kit</text>
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="24" fill="#566575">A structured creative system for Chinese novel projects</text>
+  <g stroke="#b7c3cf" stroke-width="4" fill="none">
+    <path d="M800 450 L410 280"/><path d="M800 450 L1190 280"/><path d="M800 450 L340 520"/><path d="M800 450 L1260 520"/><path d="M800 450 L480 730"/><path d="M800 450 L1120 730"/><path d="M800 450 L800 760"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="25" font-weight="700" text-anchor="middle">
+    <rect x="630" y="350" width="340" height="200" rx="12" fill="#17212b"/>
+    <text x="800" y="430" fill="#ffffff">MANUSCRIPT</text><text x="800" y="475" font-size="20" font-weight="400" fill="#d9e2ea">draft • review • memory</text>
+    <g><rect x="240" y="220" width="340" height="120" rx="10" fill="#3a6ea5"/><text x="410" y="292" fill="#fff">ARCHITECT</text></g>
+    <g><rect x="1020" y="220" width="340" height="120" rx="10" fill="#3a6ea5"/><text x="1190" y="292" fill="#fff">OUTLINE</text></g>
+    <g><rect x="170" y="460" width="340" height="120" rx="10" fill="#d4553d"/><text x="340" y="532" fill="#fff">DRAFT</text></g>
+    <g><rect x="1090" y="460" width="340" height="120" rx="10" fill="#d49a3a"/><text x="1260" y="532" fill="#fff">RESEARCH</text></g>
+    <g><rect x="310" y="670" width="340" height="120" rx="10" fill="#2f8f83"/><text x="480" y="742" fill="#fff">PROSE EDIT</text></g>
+    <g><rect x="950" y="670" width="340" height="120" rx="10" fill="#2f8f83"/><text x="1120" y="742" fill="#fff">CONTINUITY</text></g>
+    <g><rect x="630" y="700" width="340" height="120" rx="10" fill="#566575"/><text x="800" y="772" fill="#fff">MEMORY</text></g>
+  </g>
+</svg>
