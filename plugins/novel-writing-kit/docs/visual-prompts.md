@@ -34,10 +34,3 @@
 **用途**：正文生成后的三类质量保障。
 
 
-## 使用建议
-
-- README 首页优先使用“Overall Architecture”。
-- 介绍章节工作流时使用“Chapter Production Loop”。
-- 解释 orchestrator 时使用“Task Routing Map”。
-- 介绍 `novel-memory` 时使用“Memory and Context Compression”。
-- 图片中文字应使用英文模块名，避免生成模型产生难以辨认的中文小字；中文说明放在图片下方。
