@@ -1,0 +1,18 @@
+{
+  "name": "novel-writing-kit",
+  "version": "0.1.0",
+  "description": "A Codex plugin for structured Chinese novel writing, continuity checks, prose editing, and research.",
+  "author": {
+    "name": "Novel Writing Kit contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Novel Writing Kit",
+    "shortDescription": "Structured Chinese novel writing skills.",
+    "longDescription": "Seven core skills for planning, drafting, checking, editing, researching, and remembering Chinese novels, plus an optional workflow orchestrator.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Help me plan, write, or revise a Chinese novel."
+  }
+}
