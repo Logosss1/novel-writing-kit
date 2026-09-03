@@ -1,9 +1,5 @@
 # Workflow Visual Prompts
 
-这份文档提供适合 README、项目主页或发布介绍页的工作流配图方向。提示词强调专业的软件工具感，不包含真实人物、私人资料或具体小说角色。
-
-仓库内已提供对应的轻量 SVG 配图，适合直接嵌入 GitHub README。
-
 ## 1. Overall Architecture
 
 ![Overall architecture](assets/overall-architecture.svg)
