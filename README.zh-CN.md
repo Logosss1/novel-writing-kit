@@ -1,12 +1,12 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-# Novel Writing Kit
+# Novel Writing Kit（自用）
 
 一个面向中文小说创作的 Codex plugin，同时兼容 Claude 的本地 skill 目录格式。
 
 ## 核心 Skills
 
-- `novel-architect`：建立故事圣经、人物系统、世界规则、时间线和创作约束。
+- `novel-architect`：建立故事框架、人物系统、世界规则、时间线和创作约束。
 - `novel-outline`：把创意拆解为主线、分卷、章节、场景、冲突和章末钩子。
 - `novel-draft`：在保持人物动机、叙事视角和场景承接的前提下创作与改写正文。
 - `novel-continuity`：审查人物、时间线、规则、资源、信息差、伤势和伏笔。
