@@ -6,7 +6,7 @@ A Codex plugin for structured Chinese novel writing, also usable as a local skil
 
 ## Core skills
 
-- `novel-architect`: Establishes the story bible, character system, world rules, timeline, and creative constraints.
+- `novel-architect`: Establishes the story framework, character system, world rules, timeline, and creative constraints.
 - `novel-outline`: Turns a premise into coherent arcs, volumes, chapters, scenes, conflicts, and hooks.
 - `novel-draft`: Produces and revises Chinese novel prose while preserving motivation, viewpoint, and scene continuity.
 - `novel-continuity`: Audits characters, chronology, rules, resources, information gaps, injuries, and foreshadowing.
