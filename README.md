@@ -28,7 +28,6 @@ See [`plugins/novel-writing-kit/docs/routing.md`](plugins/novel-writing-kit/docs
 
 The kit follows a controlled creative loop: define the story foundation, design the plot, draft the chapter, verify facts when needed, edit the prose, audit continuity, and update project memory. Focused tasks can use one skill directly; multi-step tasks can use the optional orchestrator.
 
-![Novel Writing Kit workflow](plugins/novel-writing-kit/docs/assets/overall-architecture.svg)
 
 Workflow diagrams and image-generation prompts are collected in [`docs/visual-prompts.md`](plugins/novel-writing-kit/docs/visual-prompts.md).
 
